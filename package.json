@@ -12,11 +12,7 @@
   },
   "license": "MIT",
   "contributors": [],
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
-  "files": [
-    "dist"
-  ],
+  "main": "lib/index.ts",
   "scripts": {
     "prepack": "npm run build",
     "build": "rimraf -rf dist && tsc -p tsconfig.json",
